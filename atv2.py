@@ -1,8 +1,8 @@
-nome = {"renata,joana,julio,thiago"}
+nomes = {"renata,joana,julio,thiago"}
 
-for i in range(4):
+for nome in range(4):
     nome = input("Digite o {i+1} nome: ")
-    nomes.append(nome)
+    nomes.append(nomes)
 
 print("nNomes em maiusculo:")
 for i in nomes :
